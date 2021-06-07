@@ -61,6 +61,7 @@ const renderActions = status => {
 const Tables = () => (
   <div className={styles.component}>
     <TextField
+      className={styles.date}
       id="date"
       label="Date"
       type="date"
@@ -70,7 +71,7 @@ const Tables = () => (
       }}
     />
     <Paper className={styles.component}>
-      <Table>
+      <Table classname={styles.table}>
         <TableHead>
           <TableRow>
             <TableCell>Hour</TableCell>
