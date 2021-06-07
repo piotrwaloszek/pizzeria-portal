@@ -7,6 +7,7 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
+import TextField from '@material-ui/core/TextField';
 
 const demoContent = [
   {hour: '12:00', status: 'FREE', event: 'new event'},
@@ -59,6 +60,15 @@ const renderActions = status => {
 
 const Tables = () => (
   <div className={styles.component}>
+    <TextField
+      id="date"
+      label="Date"
+      type="date"
+      defaultValue="2021-06-07"
+      InputLabelProps={{
+        shrink: true,
+      }}
+    />
     <Paper className={styles.component}>
       <Table>
         <TableHead>
