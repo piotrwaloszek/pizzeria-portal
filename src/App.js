@@ -37,8 +37,6 @@ function App() {
               <Route exact path={process.env.PUBLIC_URL + '/weiter'} component={Weiter} />
               <Route exact path={process.env.PUBLIC_URL + '/weiter/order/new'} component={Weiter} />
               <Route exact path={process.env.PUBLIC_URL + '/weiter/order/:id'} component={Weiter}>
-                <Weiter />
-                <p>123abc</p>
               </Route>
             </Switch>
           </MainLayout>
