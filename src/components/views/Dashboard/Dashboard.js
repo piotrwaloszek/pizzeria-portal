@@ -30,7 +30,7 @@ const Dashboard = () => (
           <nav className={styles.navigation}>
             <Button className={styles.link} component = {Link} to={`${process.env.PUBLIC_URL}/kitchen`} activeClassName='active'>Kitchen</Button>
             <Button className={styles.link} component = {Link} to={`${process.env.PUBLIC_URL}/tables`} activeClassName='active'>Tables</Button>
-            <Button className={styles.link} component = {Link} to={`${process.env.PUBLIC_URL}/weiter`} activeClassName='active'>Weiter</Button>
+            <Button className={styles.link} component = {Link} to={`${process.env.PUBLIC_URL}/waiter`} activeClassName='active'>Waiter</Button>
           </nav>
         </Toolbar>
       </Container>

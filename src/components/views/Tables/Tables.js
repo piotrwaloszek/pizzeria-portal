@@ -83,10 +83,6 @@ const Tables = () => (
             <TableCell>Options</TableCell>
             <TableCell>Table 4</TableCell>
             <TableCell>Options</TableCell>
-            <TableCell>Table 5</TableCell>
-            <TableCell>Options</TableCell>
-            <TableCell>Table 6</TableCell>
-            <TableCell>Options</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -94,20 +90,6 @@ const Tables = () => (
             <TableRow key={row.hour}>
               <TableCell component="th" scope="row">
                 {row.hour}
-              </TableCell>
-              <TableCell>
-                {row.status}
-              </TableCell>
-              <TableCell>
-                {renderActions(row.status)}
-                {renderActions(row.event)}
-              </TableCell>
-              <TableCell>
-                {row.status}
-              </TableCell>
-              <TableCell>
-                {renderActions(row.status)}
-                {renderActions(row.event)}
               </TableCell>
               <TableCell>
                 {row.status}
